@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+    background-color: grey;
+    padding: 15px;
+}
+
+.grid-container > div {
+    background-color: white;
+    height: 50vh;
+    text-align: center;
+}
+
+.background-color {
+    background-color: lightblue;
+}
+
+.background-image {
+    background-image: url('https://www.w3schools.com/css/img_mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-gradient {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
